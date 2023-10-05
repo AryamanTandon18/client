@@ -39,7 +39,7 @@ article{
             color:whitesmoke;
             &:hover{
                 color: rgb(251, 228, 228) ;
-                @include myButton;
+                // @include myButton;
                 @include styledText;
             }
              

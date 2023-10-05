@@ -11,6 +11,7 @@ import Home from './components/Home';
 import { useContext, useEffect } from 'react';
 import { Context, server } from '.';
 import axios from 'axios';
+import EventsPage from './components/Event';
 function App() {
    const {setUser,setIsAuthenticated} = useContext(Context);
  
@@ -34,8 +35,10 @@ function App() {
       <Route path={"/blogs"} element={<Blogs/>}/>
       <Route path={"/community"} element={<Community/>}/>
       <Route path={"/shopping"} element={<Shopping/>} />
+      <Route path={"/events"} element={<EventsPage/>} />
       <Route path ="/login" element={<Login/>}/>
       <Route path ="/register" element={<Register/>}/>
+
     </Routes>
     <Toaster/>
    </Router>

@@ -45,7 +45,8 @@ const Header = () => {
         <Link to={"/"}>Home</Link>
         <Link to={"/blogs"}>Blogs</Link>
         <Link to={"/community"}>Community</Link>
-        <Link to={"/shopping"}>Shopping</Link>  
+        <Link to={"/shopping"}>Shopping</Link> 
+        <Link to={"/events"}>Events</Link>
         </article>
         {
           isAuthenticated?  (<button onClick={logoutHandler} disabled={Loading} className='btn'>Logout</button>) :   (<Link className="btn" to={"/login"}>Login</Link>)

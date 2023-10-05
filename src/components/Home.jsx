@@ -9,7 +9,8 @@ const Home = () => {
 <div className="content">
 
    <h1>Ecohub</h1>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, earum ea dolores commodi iste sed nobis. Ab, quidem. Eum, delectus?</p>
+   <p>Make on impact </p>
+  <p>give back to the nature and save environment</p>
    
 
 </div>
@@ -18,7 +19,7 @@ const Home = () => {
 
 <section className="about" >
 
-<h1 className="heading"> <i className="fas fa-quote-left"></i> <i className="fas fa-quote-right"></i> </h1>
+<h1 className="heading">  </h1>
 
 <div className="row">
 
@@ -28,8 +29,8 @@ const Home = () => {
 
    <div className="content">
        <h3>Every little effect makes Impact</h3>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus molestias corporis inventore soluta odio vero, dolor itaque illo eos. Velit, sequi libero animi debitis provident odit perferendis maxime repudiandae illo.</p>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere omnis fugit corporis dignissimos saepe! Accusamus accusantium enim laudantium voluptatem ab?</p>
+       <p>At Ecohub , we are driven by a shared passion fot the environment and a commitment to make a positive impact on the world inhabit.</p>
+       <p>Our journey began witha simple idea : to create a digital ecosystem where individuals ,businesses and communities can come togther to champion environmnet sustainability</p>
        
    </div>
 
@@ -41,36 +42,32 @@ const Home = () => {
 
      <section className="service">
 
-<h1 className="heading"> <i className="fas fa-quote-left"></i>Our Facilities <i className="fas fa-quote-right"></i> </h1>
+<h1 className="heading"></h1>2
 
 <div className="box-container">
 
    <div className="box">
-       <i className="fas fa-seedling"></i>
        <h3>Blogs </h3>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, nemo?</p>
-       <a href="#">read more</a>
+       <p>Dive into insightful blogs , where people share knowledge,stories and practical tips on living  greeneer lifestyle</p>
+       <a className='aTag' href="/blogs">read more</a>
    </div>
 
    <div className="box">
-       <i className="fas fa-recycle"></i>
        <h3>Events Page</h3>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
-       <a href="#">read more</a>
+       <p>Stay tuned on the latest environmental events,workshops and drives happening aroun you.Our events page is ypur gateway to learning ,networking and taking actions.</p>
+       <a className='aTag' href="/events">read more</a>
    </div>
 
    <div className="box">
-       <i className="fas fa-hand-holding-water"></i>
        <h3>Community Page</h3>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
-       <a href="#">read more</a>
+       <p>Join our vibrant communities of like minded individuals. Connect ,share ideas and collaborate with people and promote enviromental sustainibility</p>
+       <a className='aTag' href="/community">read more</a>
    </div>
 
    <div className="box">
-       <i className="fas fa-tree"></i>
        <h3>MarketPlace</h3>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-       <a href="#">read more</a>
+       <p>Explore our marketplace, where you can discover eco-friendly products and services . We curate a wide range of sustainable options to make it easier for you to make responsible choices</p>
+       <a className='aTag' href="/shopping">read more</a>
    </div>
 
 </div>

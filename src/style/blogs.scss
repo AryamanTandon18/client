@@ -1,0 +1,92 @@
+.bodyblogs{
+    height:100%;
+    width:99%;
+  
+  }
+  .bloghome{
+      min-height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background:url('https://media.istockphoto.com/id/1450272068/photo/wind-sun-and-water-energy.webp?b=1&s=170667a&w=0&k=20&c=H2lsYW_wQ1Q2X4NziXyWmp6tPUlA5lLU6VJwe9ixeEU=') no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .bloghome .blogcontent{
+      text-align: center;
+      padding:1rem;
+  }
+  
+  .bloghome .blogcontent h1{
+      font-size: 7rem;
+      color:var(--green);
+  }
+  
+  .bloghome .blogcontent p{
+      font-size: 1.9rem;
+      color:black;
+      padding:1rem 0;
+      width: 70rem;
+  }
+  .post{
+      width: 100%;
+      margin:0 auto;
+      display:inline-block;
+  }
+  .by{
+    text-align:center;
+  }
+  .data:hover{
+    transform:scale(1.2)
+  }
+  .data{
+      padding:2rem 1rem;
+      text-align: center;
+      
+      margin: 30px;
+      cursor: pointer;
+      box-sizing:border-box;
+      float:left;
+      border-radius:10px;
+  }
+  img{
+    border-radius:5px;
+  }
+  
+  .imageblogs{
+    height:190px;
+    width:300px;
+    padding:2px;
+    margin:2px;
+  
+    border-radius:10px;
+  }
+  
+  .link{
+    top:40px;
+    font-size:20px;
+    color:black;
+    text-decoration:none;
+    
+  }
+  
+  
+  .img_inside{
+    height:400px;
+    width:600px;
+    margin-left:400px;
+  }
+  .text{
+    margin:10px;
+    padding:10px;
+    font-size:20px;
+  }
+  .header{
+    text-align:center;
+  }
+  
+  .link:hover{
+    transform:scale(1.2);
+  }
+  

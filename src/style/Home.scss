@@ -136,11 +136,16 @@
     padding:1rem 0;
 }
 
-.service .box-container .box a{
+.service .box-container .box .aTag{
     color:#333;
     font-size: 1.4rem;
 }
-
+a{
+    &:hover{
+        text-decoration: underline  ;
+        font-weight: 600;
+    }
+}
 .service .box-container .box a:hover{
     color:var(--green);
 }
